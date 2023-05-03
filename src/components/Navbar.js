@@ -10,6 +10,7 @@ const Navbar = () => {
         section.scrollIntoView({ behavior: "smooth" });
         if (targetId === "home") { //if the compenent is "home" it sends to default url
             window.history.pushState(null, null, `/`);
+            console.log("change")
         } else {
             window.history.pushState(null, null, `#${targetId}`);
         }
