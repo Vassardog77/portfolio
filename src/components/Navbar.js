@@ -5,9 +5,19 @@ const Navbar = () => {
 
 
     function scrollToSection(event,targetId) {
+        
         event.preventDefault();
         const section = document.getElementById(targetId);
-        section.scrollIntoView({ behavior: "smooth" });
+
+
+        section.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest",
+            // Scroll to 3% of the screen above the section
+            // by using the scrollMarginTop option
+            scrollMarginTop: "20%"
+        });
         if (targetId === "home") { //if the compenent is "home" it sends to default url
             window.history.pushState(null, null, `/`);
             console.log("change")

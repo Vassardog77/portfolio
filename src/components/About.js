@@ -24,10 +24,17 @@ function About(props) {
     return (
         <div id='about' className='section_parent'>
             <div className='heading'>About</div>
-            <div>{content_string[0]}</div>
-            <div>{content_string[1]}</div>
-            <div>{content_string[2]}</div>
-            <div>{content_string[3]}</div>
+            <div className='about_parent'>
+                <div className='about_image'>
+                    <img src={`${process.env.PUBLIC_URL}/images/profile_pic.jpg`} alt="personal"></img>
+                </div>
+                <div className='about_text'>
+                    <div>{content_string[0]}</div>
+                    <div>{content_string[1]}</div>
+                    <div>{content_string[2]}</div>
+                    <div>{content_string[3]}</div>
+                </div>
+            </div>
         </div>
     );
 }

@@ -2,14 +2,17 @@ body, html {
   margin: 0;
   padding: 0;
   background-color: #0a1940;
+  background-image: url('../public/images/forest.jpg');
+  background-size: 100%; /* or set to a specific size, such as 100% */
 }
 
 .App {
-  background-color: #0a1940;
+
   margin: 0;
 }
 
 .navbar_parent{
+  background-color: #0a1940;
   position: fixed;
   top: 0;
   left: 0;
@@ -34,13 +37,42 @@ body, html {
   color: white;
 }
 
+.heading1 {
+  margin-top: 20%;
+  font-weight: bold;
+  font-size: 18pt;
+}
+.heading2 {
+  font-weight: bold;
+  font-size: 50pt;
+}
+.heading3 {
+  font-weight: bold;
+  font-size: 25pt;
+  padding-bottom: 20%;
+}
+
 .heading {
   font-weight: bold;
+  font-size: 25pt;
+}
+
+.first_section_parent {
+  margin: 8% auto;
+  color: white;
+  background-color: #0a1940;
+  outline-style: solid;
+  outline-color: white;
+  width: 70%;
+  padding: 40px;
 }
 
 .section_parent {
-  margin: 0 auto;
+  margin: 10% auto;
   color: white;
+  background-color: #0a1940;
+  outline-style: solid;
+  outline-color: white;
   width: 70%;
   padding: 40px;
 }
@@ -64,4 +96,21 @@ body, html {
   height: 20%;
   width: 20%;
   background-color: white;
+}
+
+.about_parent {
+  display: flex;
+  width: 90%;
+}
+
+.about_text{
+
+}
+
+.about_image{
+
+}
+
+.about_image img {
+  width: 100%;  
 }
