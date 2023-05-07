@@ -27,7 +27,7 @@ function Resume(props) {
                         <li>No Boundaries Marketing Group (5/22 – current) (writing webpages for clients)</li>
                         <li>Chandler Innovations Internship (5/21-8/21) (web page design)</li>
                     </ul>
-                    <a href={`${process.env.PUBLIC_URL}/images/Resume_4.14.23.pdf`} download>Download Resume PDF</a>
+                    <a href={`${process.env.PUBLIC_URL}/images/Resume_5.6.23.pdf`} download>Download Resume PDF</a>
                 </div>
             </div>
         </div>
