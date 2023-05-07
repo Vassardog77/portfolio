@@ -14,11 +14,7 @@ const Navbar = () => {
             behavior: "smooth",
             block: "center",
         });
-        if (targetId === "home") { //if the compenent is "home" it sends to default url
-            window.history.pushState(null, null, `/portfolio/`);
-        } else {
             window.history.pushState(null, null, `#${targetId}`);
-        }
       }
       
 
