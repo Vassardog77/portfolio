@@ -14,7 +14,7 @@ function Projects(props) {
                 <div className='project_element2'>
                 <div className='project_heading'>Social Media Manager</div>
                     <img src={`${process.env.PUBLIC_URL}/images/media_project.png`} alt="media project"></img>
-                    <div className='project_element_text'>By far the a largest project I've ever done. A fully functional MERN stack social media manager. Unfortuanly due to api app restrictions, the application will only work for test users.</div>
+                    <div className='project_element_text'>A fully functional MERN stack social media manager. Unfortuanly due to api app restrictions, the application will only work for test users.</div>
                     <a href='https://github.com/Vassardog77/Network4_test' target='_blank' rel='noreferrer'>Check out the code!</a>
                 </div>
             </div>

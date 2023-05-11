@@ -3,9 +3,8 @@ import React from 'react';
 function About(props) {
 
     const content_string = [
-        `Ben Moxon is a driven and creative electrical engineering student currently pursuing his bachelor's degree at Arizona State University.
-        He is a skilled programmer, proficient in Python, C, Java, JavaScript, HTML, SQL, Verilog, and System Verilog, with extensive experience 
-        in full-stack web development using the MERN stack.`,
+        `Ben Moxon is a driven and creative electrical engineering student. He is a skilled programmer, proficient in Python, C, Java, JavaScript, 
+        HTML, SQL, Verilog, and System Verilog, with extensive experience in full-stack web development using the MERN stack.`,
 
         `As a self-motivated and ambitious individual, Ben has gained valuable experience from various internships, including his work at No 
         Boundaries Marketing Group, Chandler Innovations, and UC Davis, where he researched, designed, and presented a drone and sensor package 
