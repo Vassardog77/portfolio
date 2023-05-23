@@ -3,7 +3,7 @@ import React from 'react';
 function About(props) {
 
     const content_string = [
-        `Ben Moxon is a driven and creative electrical engineering student. He is a skilled programmer, proficient in Python, C, Java, JavaScript, 
+        `Ben Moxon is a driven and creative electrical engineer. He is a skilled programmer, proficient in Python, C, Java, JavaScript, 
         HTML, SQL, Verilog, and System Verilog, with extensive experience in full-stack web development using the MERN stack.`,
 
         `As a self-motivated and ambitious individual, Ben has gained valuable experience from various internships, including his work at No 
